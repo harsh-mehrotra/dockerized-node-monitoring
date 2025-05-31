@@ -1,4 +1,4 @@
-# 📊 Dockerized Node.js App with Monitoring
+# 🐳 Dockerized Node.js App with Monitoring
 
 This project is a **Node.js application** running in a Docker container, complete with a monitoring stack powered by **Prometheus** and **Grafana**. I built this to demonstrate how to containerize a web app and set up observability using modern tools, making it a great addition to my DevOps portfolio.
 
@@ -70,7 +70,7 @@ The monitoring stack is pre-configured to track the app’s performance:
 - **Prometheus**: Scrapes metrics from the Node.js app (configured in `monitoring/prometheus.yml`).
 - **Grafana**: Visualizes metrics with customizable dashboards. After logging in, add Prometheus as a data source and import or create dashboards to view metrics.
 
-**Note**: The current Node.js app doesn’t expose Prometheus-compatible metrics. To enable this, you can integrate the `prom-client` library (see [Future Improvements](#-future-improvements) below).
+![Grafana Dashboard](images/grafana-dashboard.png)
 
 ---
 
