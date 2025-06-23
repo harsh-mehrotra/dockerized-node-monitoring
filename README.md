@@ -1,7 +1,6 @@
 # 🐳 Dockerized Node.js App with Monitoring
 
 This project is a **Node.js application** running in a Docker container, complete with a monitoring stack powered by **Prometheus** and **Grafana**. I built this to demonstrate how to containerize a web app and set up observability using modern tools, making it a great addition to my DevOps portfolio.
-
 ---
 
 ## 🌟 Project Overview
